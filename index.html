@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>TicTacToe</title>
+</head>
+<body>
+<div class="container my-5 mx-auto">
+  <div class="container-infos my-5 mx-auto">
+    <div class="player-scores">
+      <h3 class="firstPlayerScore">Player 1</h3>
+      <h5 class="mx-5">VS</h5>
+      <h3 class="secondPlayerScore">Player 2</h3>
+    </div>
+    <div class="d-none">
+      <p class="p-winner-msg">Draw!</p>
+    </div>
+  </div>
+  <div class="game my-100">
+    <div class="form-container border border-2 border-primary rounded-pill">
+      <form class="add text-center my-3 mx-5">
+        <input type="text" name="player1" id="player1" placeholder="Player one" autocomplete="off">
+        <br>
+        <input type="text" name="player2" id="player2" placeholder="Player two" autocomplete="off">
+        <br>
+        <button type="submit" class="add btn btn-outline-succes" disabled>Save</button>
+      </form>
+    </div>
+
+    <div class="button-container d-none">
+      <div class="row-1">
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="00"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="01"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="02"></button>
+      </div>
+      <div class="row-2">
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="10"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="11"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="12"></button>
+      </div>
+      <div class="row-2">
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="20"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="21"></button>
+        <button class="btn btn-outline-primary mx-2 my-2 gameButton" id="22"></button>
+      </div>
+    </div>
+    <button class="reset btn btn-outline-warning d-none">Reset</button>
+  </div>
+</div>
+<script src="scripts/app.js"></script>
+</body>
+</html>
