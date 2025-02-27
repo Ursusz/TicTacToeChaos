@@ -55,7 +55,7 @@ resetbutton.addEventListener('click', () => {
 form.addEventListener('keyup', e => {
     e.preventDefault();
     const inputs = document.querySelectorAll('input');
-    inputs.forEach(input => {
+    inputs.forEach(() => {
         const allFilled = [...inputs].every(input => input.value.trim() !== "");
         if(allFilled){
             document.querySelector('.add button').removeAttribute("disabled");

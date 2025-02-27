@@ -16,9 +16,9 @@ body{
     height: 100px;
     text-align: center;
     font-size: 40px;
-    font-family: "Arial Black";
+    font-family: "Arial Black", Arial, serif;
     border-width: 5px;
-    box-shadow: 3px 3px 3px 0px darkblue ;
+    box-shadow: 3px 3px 3px 0 darkblue ;
 }
 
 form input{
@@ -37,14 +37,14 @@ form button{
 }
 
 .reset{
-    font-family: arial;
+    font-family: arial, serif;
     font-size: 20px;
     border-width: 5px;
     font-weight: 300;
 }
 
 .firstPlayerScore .secondPlayerScore{
-    font-family: Dekko;
+    font-family: Dekko, serif;
     font-size: 20px;
 }
 
@@ -57,5 +57,5 @@ form button{
 
 .p-winner-msg{
     font-size: 30px;
-    font-family: Dekko;
+    font-family: Dekko, serif;
 }
