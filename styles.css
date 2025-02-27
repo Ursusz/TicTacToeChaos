@@ -37,10 +37,10 @@ form button{
 }
 
 .reset{
-    font: arial;
+    font-family: arial;
     font-size: 20px;
     border-width: 5px;
-    font-weight: 3px;
+    font-weight: 300;
 }
 
 .firstPlayerScore .secondPlayerScore{
